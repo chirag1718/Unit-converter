@@ -1,0 +1,109 @@
+body{
+    padding: 0.5em;
+    background: rgb(251,206,177);
+
+}
+
+h1{
+    margin: 0.2em 0;
+}
+
+h2{
+    font-size: 25px;
+    margin: 0;
+    padding: 0.3em;
+}
+
+p{
+    font-size: 18px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#tt{
+    font-size: 50px;
+}
+
+.hero-container{
+    background-color: white;
+
+    border-radius: 1em;
+    
+    box-shadow: 2px 3px 6px -3px black;
+    
+    height: 620px ;
+    width: 500px;
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.content{
+    color: white;
+
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    
+    height: 200px;
+
+    background-image: linear-gradient(45deg, #ED4880, #F38B17);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.content-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 1.5em;
+    margin-bottom: 0;
+}
+
+button{
+    width: 300px;
+
+    border: none;
+    border-radius: 1em;
+
+    color: black;
+
+    background-color: white;
+    border: 2px solid #ED4880;
+    
+    padding: 0.5em 1em ;
+    margin: 0.5em;
+
+    cursor: pointer;
+
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #ED4880; 
+    color: white; 
+}
+
+footer{
+    padding-top: 1em;
+}
+
+@media (min-width: 350px) and (max-width: 600px){
+    body{
+    background: rgb(251,206,177);
+    margin: 1em;
+    }
+
+    .hero-container{
+        height: 720px;
+        width: 320px;
+    }
+}
